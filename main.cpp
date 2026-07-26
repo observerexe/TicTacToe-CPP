@@ -28,6 +28,7 @@ void printField(char field[3][3]) {
         std::cout << std::endl;
     }
 }
+
 bool winCheck(char field[3][3], char player) {
 
     for (int i = 0; i < 8; i++) {
@@ -88,7 +89,7 @@ int main()
             std::cout << player << " Win!" << std::endl;
             break;
         }
-
+        
         if (turn == 9) {
             printField(field);
             std::cout << "Draw!" << std::endl;

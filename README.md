@@ -1,6 +1,3 @@
-# TicTacToe-CPP
-Tic Tac Toe
-=======
 # Tip Tac Toe on C++
 
 ## **v0.1.0**
